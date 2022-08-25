@@ -40,7 +40,9 @@ func calcul() {
 	case "/":
 		if b == 0 {
 			fmt.Println("Деление на ноль запрещено")
+			break
 		}
+
 		res = a / b
 	case "^":
 		res = (math.Pow(a, b))
